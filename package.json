@@ -1,5 +1,5 @@
 {
-  "name": "lib-creater",
+  "name": "ea-lib-creator",
   "version": "1.0.3",
   "description": "",
   "main": "./bin/index.js",
