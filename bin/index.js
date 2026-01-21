@@ -46,9 +46,11 @@ program
        .name('lib-creater')
        .usage('<commands> [options]')
        .command('init <project_name>')
-       .description('Create a javascript plugin project.')
-       .action(project => {
-              initProject(project)
+       .description('Create a React component library project.')
+       .option('-t, --template <name>', 'template name (default: react-ts)', 'react-ts')
+       .option('-p, --package-name <name>', 'package name in package.json')
+       .action((project, options) => {
+              initProject(project, options)
        })
 
 // 解析命令行参数
