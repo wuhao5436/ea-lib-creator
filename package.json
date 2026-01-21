@@ -1,7 +1,7 @@
 {
   "name": "ea-lib-creator",
   "version": "1.0.3",
-  "description": "",
+  "description": "CLI to scaffold a minimal React + TypeScript component library template",
   "main": "./bin/index.js",
   "bin": {
     "lib-creater": "./bin/index.js"
@@ -9,8 +9,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cli",
+    "react",
+    "typescript",
+    "component-library",
+    "rollup",
+    "scaffold",
+    "template"
+  ],
+  "author": "wuhao5436",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.0",
